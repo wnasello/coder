@@ -1,0 +1,171 @@
+
+*{margin: 0; padding: 0
+   ;}
+
+   body{background-color: rgb(91, 91, 6);}
+
+/*INDEX*/
+
+/*header*/
+
+
+header{border-bottom: 2px solid rgba(48, 46, 46, 0.964);
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-areas: "imagen navegador";
+padding: 15px;
+align-items: center;
+
+
+}
+
+
+
+header img{width: 150px;
+    grid-area: imagen;}
+
+
+   header nav{grid-area: navegador;
+   }
+
+   header nav ul{display: flex;
+   list-style-type: none;}
+
+   header nav ul li a{color: rgb(243,181,66);
+      background-color: rgba(165, 165, 9, 0.508);
+      padding: 5px;
+      border-radius: 5px;
+     text-decoration: none;
+      margin: 55px;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 20px;
+transition: 3s;}
+
+
+   header a:hover{background-color: #212224;
+      margin: 5px;}
+   
+
+
+
+   
+
+
+
+.sec{ padding: 50px
+   ;}
+
+
+
+
+
+/*main*/
+
+h1{color: rgb(243,181,66);
+margin: 15px;}
+
+
+.margin{margin: 26px;}
+
+main{margin: 15px;
+}
+
+   main h1{margin:10px 10px;
+      color: orange;
+      font-size: 30px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: justify;}
+
+
+
+/*.peugeot106{margin-top: 15px;}
+
+.iconowpp{position: fixed; right: 15px;
+bottom: 100px; 
+width: 70px;
+}
+
+/*footer*/
+
+footer{margin-top:  15px;}
+
+footer{ 
+   border-top:  solid #212224;
+   display: flex;
+   align-items: center;
+   justify-content:space-between;} 
+
+   
+footer ul li{ 
+   margin-top: 10PX;
+   list-style-type: none; 
+   color: orange;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+ /*ACA TERMINA PAGINA DE INICIIO*/
+
+
+
+/*nosotros*/
+
+/*foto del mismo tamaño de 3 autos, se pone en una section*/
+
+main h2{ margin: 10px 10px;
+   color: orange;
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: justify;}
+
+.autos{display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 15px;}
+
+.tamaño{width:350px;
+height: 350px;
+margin-top: 20px;
+margin-bottom: 20px;}
+
+
+footer section{margin-top: 15px;}
+ 
+footer section ul{ text-decoration: none; margin: 5px;}
+
+
+/*nosotros*/
+
+.display-flex{display: flex; justify-content: space-evenly
+   ;}
+.card{width: 300px; height: 300px;}
+.card-letra{color:rgb(243,181,66)}
+
+
+ 
+
+
+/*autos*/
+
+
+/*foto del mismo tamañao de 3 autos, se utiliza class"tamaño2" utiliza nuevamente una section*/
+
+.tamaño2{width: 350px;height: 350px;}
+
+
+
+/*motos*/
+
+/* foto del mismo tamaño de 3 motos, se utuliza class "tamño3", utilizamos nuevamente una section*/
+
+.tamaño3{width: 350px;height: 350px;}
+
+
+
+/*contact*/
+
+/*estilo del formulario*/
+ 
+
+
+
+
+
