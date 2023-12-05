@@ -113,7 +113,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 main h2{ margin: 10px 10px;
    color: orange;
    font-size: 25px;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-family: '{ranklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    text-align: justify;}
 
 .autos{display: flex;
@@ -126,7 +126,7 @@ height: 350px;
 margin-top: 20px;
 margin-bottom: 20px;}
 
-
+footer a{ width: 5px;}
 footer section{margin-top: 15px;}
  
 footer section ul{ text-decoration: none; margin: 5px;}
@@ -166,6 +166,18 @@ footer section ul{ text-decoration: none; margin: 5px;}
  
 
 
+/*media query*/
+
+@media (max-width: 500px) {
+   header nav{display: none;}
+}    
+      
+   
+
+  
+
+
+   
 
 
 
