@@ -1,59 +1,59 @@
 
-*{margin: 0; padding: 0
-   ;}
+*{margin: 0;
+    padding: 0;
+box-sizing: content-box;}
 
-   body{background-color: rgb(91, 91, 6);}
+   body{background-color: beige;}
 
 /*INDEX*/
 
 /*header*/
-
 
 header{border-bottom: 2px solid rgba(48, 46, 46, 0.964);
 display: grid;
 grid-template-columns: repeat(2,1fr);
 grid-template-areas: "imagen navegador";
 padding: 15px;
-align-items: center;
-
-
-}
-
-
+align-items: center;}
 
 header img{width: 150px;
     grid-area: imagen;}
 
-
-   header nav{grid-area: navegador;
-   }
+header nav{grid-area: navegador;}
 
    header nav ul{display: flex;
    list-style-type: none;}
 
    header nav ul li a{color: rgb(243,181,66);
-      background-color: rgba(165, 165, 9, 0.508);
-      padding: 5px;
+      background-color:rgb(158, 150, 140);
+      padding: 2px 20px 2px 20px ;
       border-radius: 5px;
-     text-decoration: none;
+      box-shadow: 2px 2px 5px rgb(0,0,0,0);
+      text-decoration: none;
       margin: 55px;
-   font-family:Arial, Helvetica, sans-serif;
-   font-size: 20px;
-transition: 3s;}
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      transition: 3s;}
+
+      li a:hover{color: rgb(91, 91, 6)}
 
 
    header a:hover{background-color: #212224;
       margin: 5px;}
    
 
-
-
-   
-
-
-
 .sec{ padding: 50px
    ;}
+
+
+   .logo-wpp{width: 40px;
+            position: fixed;
+            bottom: 20px;
+            right: 10px;
+            transition: 2s;
+         }
+
+   .logo-wpp:hover{transform: rotate(360deg);}
 
 
 
@@ -62,7 +62,9 @@ transition: 3s;}
 /*main*/
 
 h1{color: rgb(243,181,66);
-margin: 15px;}
+margin: 15px;
+text-align: center;}
+
 
 
 .margin{margin: 26px;}
@@ -91,16 +93,40 @@ footer{margin-top:  15px;}
 
 footer{ 
    border-top:  solid #212224;
-   display: flex;
-   align-items: center;
-   justify-content:space-between;} 
-
+  }
+   footer div p{padding-left: 50px;
+   margin: 15px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(243,181,66);
+font-size: 18px;
+}
+    
+footer p{text-align: center;
+   color: rgb(243,181,66);
+   padding-left: 50px;
    
-footer ul li{ 
-   margin-top: 10PX;
-   list-style-type: none; 
-   color: orange;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+   }
+
+   .redes{ padding: 20px;
+      display: flexbox;
+      justify-content: left;
+}
+.redes a{margin: 15px;
+text-decoration: none;
+font-size: 20px;
+width: 60px;
+height: 160px;
+text-align: center;
+color: rgb(243,181,66);
+transition: 1s;
+}
+
+
+.redes a:hover{transform: scale(1.2);
+              color: antiquewhite;}
+
+
+  
 
  /*ACA TERMINA PAGINA DE INICIIO*/
 
@@ -114,7 +140,7 @@ main h2{ margin: 10px 10px;
    color: orange;
    font-size: 25px;
    font-family: '{ranklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   text-align: justify;}
+   text-align: center;}
 
 .autos{display: flex;
 justify-content: space-between;
@@ -126,10 +152,7 @@ height: 350px;
 margin-top: 20px;
 margin-bottom: 20px;}
 
-footer a{ width: 5px;}
-footer section{margin-top: 15px;}
- 
-footer section ul{ text-decoration: none; margin: 5px;}
+
 
 
 /*nosotros*/
@@ -162,8 +185,15 @@ footer section ul{ text-decoration: none; margin: 5px;}
 
 /*contact*/
 
-/*estilo del formulario*/
- 
+form{ 
+   box-sizing: border-box;
+   width: 10px;
+   padding: 20px;
+   margin: 2opx;
+
+}
+ form input:focus{background-color: rgb(243,181,66); }
+  form textarea:focus{background-color: rgb(243,181,66);}
 
 
 /*media query*/
