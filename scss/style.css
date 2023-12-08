@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  background-color: beige;
+}
+
+header {
+  border-bottom: 2px solid rgba(48, 46, 46, 0.964);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "imagen navegador";
+  padding: 15px;
+  align-items: center;
+}
+header img {
+  width: 150px;
+  grid-area: imagen;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+header nav ul li {
+  margin: 15px;
+}
+header nav ul li:hover {
+  margin: 5px;
+  transition: 1s;
+}
+header nav ul li a {
+  color: rgb(243, 181, 66);
+  background-color: rgb(158, 150, 140);
+  padding: 2px 20px 2px 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  transition: 3s;
+}
+header nav ul li a:hover {
+  color: black;
+}
+
+.holahover {
+  opacity: 70%;
+  background-color: black;
+  margin: 10px;
+}
+
+.sec {
+  padding: 10px;
+  background-color: rgb(248, 236, 223);
+  margin-top: 12px;
+}
+
+.sec {
+  padding: 10px;
+  background-color: rgb(248, 236, 223);
+  margin-top: 12px;
+}
+
+h1 {
+  color: rgb(243, 181, 66);
+  margin: 15px;
+  text-align: center;
+  font-size: 25px;
+}
+
+p {
+  color: rgb(243, 181, 66);
+}
+
+.logo-wpp {
+  width: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  transition: 2s;
+}
+.logo-wpp:hover {
+  transform: rotate(360deg);
+}
+
+footer {
+  margin-top: 15px;
+  border-top: solid #212224;
+}
+footer div p {
+  padding-left: 50px;
+  margin: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(243, 181, 66);
+  font-size: 18px;
+  text-align: center;
+  padding-left: 50px;
+}
+
+.redes {
+  padding: 20px;
+  display: flexbox;
+  justify-content: left;
+}
+.redes a {
+  margin: 15px;
+  text-decoration: none;
+  font-size: 30px;
+  width: 60px;
+  height: 10px;
+  text-align: center;
+  color: rgb(243, 181, 66);
+  transition: 1s;
+}
+.redes a:hover {
+  transform: scale(1.2);
+  color: rgb(36, 31, 24);
+}/*# sourceMappingURL=style.css.map */
