@@ -7,7 +7,7 @@ footer{
             padding-left: 50px;
             margin: 15px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            color: rgb(243,181,66);
+            color: $color;
             font-size: 18px;
             text-align: center;
             padding-left: 50px;
@@ -15,6 +15,7 @@ footer{
         
 
     }
+    
 }
 
 .redes{ padding: 20px;
@@ -28,7 +29,7 @@ footer{
             width: 60px;
             height: 10px;
             text-align: center;
-            color: rgb(243,181,66);
+            color: $color;
             transition: 1s;
             &:hover{
                 transform: scale(1.2);

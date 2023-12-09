@@ -1,0 +1,14 @@
+@import "../utilidades/variables";
+
+form{
+      box-sizing: border-box;
+      width: 10px;
+      padding: 20px;
+      margin: 2opx;
+
+      input:focus{background-color: $color;}
+      
+      textarea:focus{background-color: $color;}
+      
+           }
+
