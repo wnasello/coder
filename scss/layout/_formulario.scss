@@ -1,5 +1,14 @@
 @import "../utilidades/variables";
 
+main{
+      h2{
+            text-align: center;
+            color: aqua;
+      }
+
+}
+
+
 form{
       box-sizing: border-box;
       width: 10px;
@@ -11,4 +20,5 @@ form{
       textarea:focus{background-color: $color;}
       
            }
+
 
