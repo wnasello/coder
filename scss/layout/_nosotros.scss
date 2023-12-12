@@ -1,15 +1,41 @@
-h1{color: $color;}
+
+@import "../utilidades/variables";
 
 
-main{
-      h2{
-        color: $color;
-      }
-        
+
+section{ 
+        h1{
+          color: $color;}
+
+
+      main{
+            h2{
+                color: $color;
+                font-size: 20px;
+          
+              }
+               
+            
+            }
       
 
 }
 
+.cards{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 45px;}
 
-     .display-flex sec{display: flex;
-    justify-content: center;}
+
+
+      
+
+
+
+  
+     
+      
+   
+
+
