@@ -1,8 +1,15 @@
+h1{color: $color;}
 
- main{
-      h2{color: $color;
-        margin: 15px;
-        text-align: center;
-        font-size: 25px;
+
+main{
+      h2{
+        color: $color;
       }
- }
+        
+      
+
+}
+
+
+     .display-flex sec{display: flex;
+    justify-content: center;}
